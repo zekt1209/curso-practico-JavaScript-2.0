@@ -4,8 +4,12 @@ const number1 = document.querySelector('#number1');
 const number2 = document.querySelector('#number2');
 
 const result = document.querySelector('#result');
+const btn1 = document.querySelector('#btnCalcular')
 
 function btnOnClick() {
     const resultado = parseInt(number1.value) + parseInt(number2.value);    
     result.innerText = "El resultado es: " + resultado;
 }
+
+// addEventListener
+
