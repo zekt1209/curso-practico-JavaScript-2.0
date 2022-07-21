@@ -6,10 +6,6 @@ const number2 = document.querySelector('#number2');
 const result = document.querySelector('#result');
 
 function btnOnClick() {
-    const num1 = parseInt(number1.value);    
-    const num2 = parseInt(number2.value);
-    
-    const resultado = num1 + num2;
-
+    const resultado = parseInt(number1.value) + parseInt(number2.value);    
     result.innerText = "El resultado es: " + resultado;
 }
