@@ -11,5 +11,17 @@ function btnOnClick() {
     result.innerText = "El resultado es: " + resultado;
 }
 
+
+
+
+
 // addEventListener
 
+// btn1.addEventListener('submit', sumarInputValues);
+
+function sumarInputValues(event) {
+    event.preventDefault();
+
+    const resultado = parseInt(number1.value) + parseInt(number2.value);    
+    result.innerText = "El resultado es: " + resultado;   
+}
